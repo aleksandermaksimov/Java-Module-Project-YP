@@ -49,7 +49,7 @@ public class Calculator {
                     continue;
                 }
             }
-            System.out.println("Стоимость товара должна быть в формате ~00.00~.");
+            System.out.println("Стоимость товара должна быть в формате ~00.00~");
             scanner.next();
         }
     }
