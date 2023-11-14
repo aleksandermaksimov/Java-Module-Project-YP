@@ -23,8 +23,10 @@ public class Main {
         switch (Integer.parseInt(format) % 10) {
             case 1:
                 System.out.println("Сумма к оплате: " + String.format("%.2f", price) + " рубль");
+                break;
             case 2, 3, 4:
                 System.out.println("Сумма к оплате: " + String.format("%.2f", price) + " рубля");
+                break;
             default:
                 System.out.println("Сумма к оплате: " + String.format("%.2f", price) + " рублей");
         }
